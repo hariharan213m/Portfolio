@@ -240,7 +240,7 @@ export default function Hero() {
           display: flex;
           align-items: center;
           overflow: hidden;
-          padding: 2rem 1.5rem;
+          padding: 5rem 1.5rem 2rem;
         }
         .hero-container {
           position: relative;
@@ -269,7 +269,7 @@ export default function Hero() {
         }
         .scroll-indicator {
           position: absolute;
-          bottom: 80px;
+          bottom: 50px;
           left: 50%;
           transform: translateX(-50%);
           z-index: 2;

@@ -273,7 +273,7 @@ export default function Hero() {
           left: 50%;
           transform: translateX(-50%);
           z-index: 2;
-          display: flex;
+          display: none;
           flex-direction: column;
           align-items: center;
           gap: 8px;

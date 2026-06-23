@@ -44,14 +44,20 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="section" style={{ paddingBottom: "0" }} ref={ref}>
+    <section
+      id="contact"
+      className="section"
+      style={{ paddingBottom: "0" }}
+      ref={ref}
+    >
       {/* Background glow */}
       <div
         className="glow-blob"
         style={{
           width: "clamp(400px, 80vw, 700px)",
           height: "clamp(400px, 80vw, 700px)",
-          background: "radial-gradient(circle, rgba(229,9,20,0.06) 0%, transparent 70%)",
+          background:
+            "radial-gradient(circle, rgba(229,9,20,0.06) 0%, transparent 70%)",
           top: "10%",
           left: "50%",
           transform: "translateX(-50%)",
@@ -63,7 +69,10 @@ export default function Contact() {
           initial={{ opacity: 0, y: 40 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
-          style={{ textAlign: "center", marginBottom: "clamp(40px, 8vw, 80px)" }}
+          style={{
+            textAlign: "center",
+            marginBottom: "clamp(40px, 8vw, 80px)",
+          }}
         >
           <div className="section-label" style={{ justifyContent: "center" }}>
             06 — Contact
@@ -111,7 +120,8 @@ export default function Contact() {
               width: "clamp(150px, 40vw, 200px)",
               height: "clamp(150px, 40vw, 200px)",
               borderRadius: "50%",
-              background: "radial-gradient(circle, rgba(229,9,20,0.08), transparent)",
+              background:
+                "radial-gradient(circle, rgba(229,9,20,0.08), transparent)",
             }}
           />
           <div
@@ -122,7 +132,8 @@ export default function Contact() {
               width: "clamp(120px, 35vw, 160px)",
               height: "clamp(120px, 35vw, 160px)",
               borderRadius: "50%",
-              background: "radial-gradient(circle, rgba(139,92,246,0.06), transparent)",
+              background:
+                "radial-gradient(circle, rgba(139,92,246,0.06), transparent)",
             }}
           />
 
@@ -170,7 +181,10 @@ export default function Contact() {
           {/* Email CTA */}
           <motion.button
             onClick={copyEmail}
-            whileHover={{ scale: 1.04, boxShadow: "0 0 50px rgba(229,9,20,0.4)" }}
+            whileHover={{
+              scale: 1.04,
+              boxShadow: "0 0 50px rgba(229,9,20,0.4)",
+            }}
             whileTap={{ scale: 0.97 }}
             style={{
               padding: "18px clamp(32px, 6vw, 48px)",
@@ -230,7 +244,9 @@ export default function Contact() {
                 minHeight: "140px",
               }}
             >
-              <div style={{ fontSize: "22px", color: link.color }}>{link.icon}</div>
+              <div style={{ fontSize: "22px", color: link.color }}>
+                {link.icon}
+              </div>
               <div>
                 <div
                   style={{
@@ -314,7 +330,6 @@ export default function Contact() {
         >
           HM<span style={{ color: "#e50914" }}>.</span>
         </div>
-
         <div
           style={{
             fontFamily: "'JetBrains Mono', monospace",
@@ -325,25 +340,18 @@ export default function Contact() {
             textAlign: "center",
           }}
         >
-          © 2025 Hariharan M · Crafted with React & Three.js
+          Designed & Developed by Hariharan M
         </div>
-
-        <div style={{ display: "flex", gap: "20px", flexWrap: "wrap", justifyContent: "center" }}>
-          {["GitHub", "LinkedIn", "Email"].map((item) => (
-            <span
-              key={item}
-              style={{
-                fontFamily: "'JetBrains Mono', monospace",
-                fontSize: "clamp(9px, 2.5vw, 10px)",
-                letterSpacing: "1px",
-                color: "rgba(255,255,255,0.2)",
-                cursor: "pointer",
-                textTransform: "uppercase",
-              }}
-            >
-              {item}
-            </span>
-          ))}
+        <div
+          style={{
+            fontFamily: "'JetBrains Mono', monospace",
+            fontSize: "10px",
+            letterSpacing: "2px",
+            color: "rgba(255,255,255,0.15)",
+            textTransform: "uppercase",
+          }}
+        >
+          2026
         </div>
       </motion.footer>
 

@@ -283,7 +283,7 @@ export default function Hero() {
         @media (min-width: 769px) and (max-width: 1024px) {
           .hero-section {
             min-height: auto;          /* content height only */
-            padding: 5rem 2rem;
+            padding: 6rem 2rem;
             align-items: center;
           }
           .hero-content {
@@ -320,7 +320,7 @@ export default function Hero() {
         @media (max-width: 768px) {
           .hero-section {
             min-height: auto;          /* content height only */
-            padding: 4rem 1rem 3rem;
+            padding: 6rem 1rem 3rem;
             align-items: center;
           }
           .hero-content {
@@ -361,7 +361,7 @@ export default function Hero() {
         /* ── Small mobile ── */
         @media (max-width: 480px) {
           .hero-section {
-            padding: 3rem 0.75rem 2rem;
+            padding: 6rem 0.75rem 2rem;
           }
           .hero-stats {
             gap: 1rem;
@@ -420,7 +420,7 @@ export default function Hero() {
                 alignItems: "center",
                 justifyContent: "center",
                 gap: "12px",
-                margin: "15px 0 18px 0",
+                margin: "18px 0",
               }}
             >
               <div

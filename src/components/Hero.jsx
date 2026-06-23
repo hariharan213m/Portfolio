@@ -332,7 +332,7 @@ export default function Hero() {
           }
           .hero-stats {
             justify-content: center;
-            gap: 1.5rem;
+            gap: 2rem;
           }
           .scroll-indicator {
             display: none;
@@ -364,7 +364,7 @@ export default function Hero() {
             padding: 6rem 0.75rem 2rem;
           }
           .hero-stats {
-            gap: 1rem;
+            gap: 2rem;
           }
           .hero-cta {
             gap: 0.75rem;
@@ -420,7 +420,7 @@ export default function Hero() {
                 alignItems: "center",
                 justifyContent: "center",
                 gap: "12px",
-                margin: "18px 0",
+                margin: "0 0 18px",
               }}
             >
               <div
@@ -449,7 +449,7 @@ export default function Hero() {
               }}
               style={{
                 fontFamily: "'Bebas Neue', sans-serif",
-                fontSize: "clamp(48px, 12vw, 130px)",
+                fontSize: "clamp(65px, 12vw, 130px)",
                 textAlign: "center",
                 lineHeight: "0.9",
                 letterSpacing: "2px",
@@ -479,7 +479,7 @@ export default function Hero() {
                 fontFamily: "'Bebas Neue', sans-serif",
                 fontSize: "clamp(18px, 4vw, 32px)",
                 letterSpacing: "3px",
-                marginBottom: "28px",
+                marginBottom: "20px",
                 height: "40px",
                 display: "flex",
                 alignItems: "center",
@@ -498,7 +498,7 @@ export default function Hero() {
                 lineHeight: "1.8",
                 color: "rgba(255,255,255,0.5)",
                 maxWidth: "520px",
-                margin: "0 auto 40px",
+                margin: "0 auto 30px",
                 textAlign: "center",
               }}
             >
@@ -589,13 +589,13 @@ export default function Hero() {
                   style={{
                     display: "flex",
                     flexDirection: "column",
-                    gap: "4px",
+                    gap: "8px",
                   }}
                 >
                   <span
                     style={{
                       fontFamily: "'Bebas Neue', sans-serif",
-                      fontSize: "clamp(28px, 5vw, 36px)",
+                      fontSize: "clamp(48px, 8vw, 66px)",
                       color: "#fff",
                       lineHeight: "1",
                     }}
